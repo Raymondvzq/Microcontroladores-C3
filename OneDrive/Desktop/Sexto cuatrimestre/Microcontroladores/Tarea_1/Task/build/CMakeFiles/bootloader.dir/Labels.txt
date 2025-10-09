@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/Users/demat/OneDrive/Desktop/Sexto cuatrimestre/Microcontroladores/Tarea_1/Task/build/CMakeFiles/bootloader
+C:/Users/demat/OneDrive/Desktop/Sexto cuatrimestre/Microcontroladores/Tarea_1/Task/build/CMakeFiles/bootloader.rule
+C:/Users/demat/OneDrive/Desktop/Sexto cuatrimestre/Microcontroladores/Tarea_1/Task/build/CMakeFiles/bootloader-complete.rule
+C:/Users/demat/OneDrive/Desktop/Sexto cuatrimestre/Microcontroladores/Tarea_1/Task/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/demat/OneDrive/Desktop/Sexto cuatrimestre/Microcontroladores/Tarea_1/Task/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/demat/OneDrive/Desktop/Sexto cuatrimestre/Microcontroladores/Tarea_1/Task/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/demat/OneDrive/Desktop/Sexto cuatrimestre/Microcontroladores/Tarea_1/Task/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/demat/OneDrive/Desktop/Sexto cuatrimestre/Microcontroladores/Tarea_1/Task/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/demat/OneDrive/Desktop/Sexto cuatrimestre/Microcontroladores/Tarea_1/Task/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/demat/OneDrive/Desktop/Sexto cuatrimestre/Microcontroladores/Tarea_1/Task/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
