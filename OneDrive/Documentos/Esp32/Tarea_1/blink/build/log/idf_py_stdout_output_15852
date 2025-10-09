@@ -1,0 +1,53 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Esp32_Idf\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DSDKCONFIG='c:\Esp32_Idf\blink\sdkconfig' -DCCACHE_ENABLE=1 C:\Esp32_Idf\blink
+-- Found Git: C:/Esp32_Idf/Espressif/tools/idf-git/2.44.0/cmd/git.exe (found version "2.44.0.windows.1")
+-- Minimal build - ON
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Esp32_Idf/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Esp32_Idf/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Esp32_Idf/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+NOTICE: Dependencies lock doesn't exist, solving dependencies.
+..NOTICE: Updating lock file at C:\Esp32_Idf\blink\dependencies.lock
+NOTICE: Processing 2 dependencies:
+NOTICE: [1/2] espressif/led_strip (3.0.1~1)
+NOTICE: [2/2] idf (5.5.1)
+-- Project sdkconfig file C:/Esp32_Idf/blink/sdkconfig
+Loading defaults file C:/Esp32_Idf/blink/sdkconfig.defaults...
+Loading defaults file C:/Esp32_Idf/blink/sdkconfig.defaults.esp32...
+-- Compiler supported targets: xtensa-esp-elf
+-- Found Python3: C:/Esp32_Idf/Espressif/python_env/idf5.5_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- USING O3
+-- App "blink" version: 1
+-- Adding linker script C:/Esp32_Idf/blink/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Esp32_Idf/blink/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32/ld/esp32.rom.libc-funcs.ld
+-- Adding linker script C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32/ld/esp32.rom.newlib-reent-funcs.ld
+-- Adding linker script C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_update bootloader bootloader_support cxx efuse esp_app_format esp_bootloader_format esp_common esp_driver_bitscrambler esp_driver_gpio esp_driver_rmt esp_driver_spi esp_hw_support esp_mm esp_partition esp_pm esp_rom esp_security esp_system esp_timer espressif__led_strip esptool_py freertos hal heap log main mbedtls newlib partition_table pthread soc spi_flash xtensa
+-- Component paths: C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/app_update C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/bootloader C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/bootloader_support C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/cxx C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/efuse C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_app_format C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_bootloader_format C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_common C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_bitscrambler C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_gpio C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_rmt C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_spi C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_mm C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_partition C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_pm C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_security C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_system C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esp_timer C:/Esp32_Idf/blink/managed_components/espressif__led_strip C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/esptool_py C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/freertos C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/hal C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/heap C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/log C:/Esp32_Idf/blink/main C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/mbedtls C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/newlib C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/partition_table C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/pthread C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/soc C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/spi_flash C:/Esp32_Idf/Espressif/frameworks/esp-idf-v5.5.1/components/xtensa
+-- Configuring done (22.8s)
+-- Generating done (1.1s)
+-- Build files have been written to: C:/Esp32_Idf/blink/build
