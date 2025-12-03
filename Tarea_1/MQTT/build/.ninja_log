@@ -1,0 +1,14 @@
+# ninja log v6
+136	284	7817621943724151	project_elf_src_esp32.c	b5b9b056875eb2b2
+136	284	7817621943724151	C:/Microcontroladores/Tarea_1/MQTT/build/project_elf_src_esp32.c	b5b9b056875eb2b2
+110	389	7817621945086883	esp-idf/esp_system/ld/sections.ld.in	97df48faf2816d4
+110	389	7817621945086883	C:/Microcontroladores/Tarea_1/MQTT/build/esp-idf/esp_system/ld/sections.ld.in	97df48faf2816d4
+96	394	7817621945132051	esp-idf/esp_system/ld/memory.ld	c62530b9cb238de
+96	394	7817621945132051	C:/Microcontroladores/Tarea_1/MQTT/build/esp-idf/esp_system/ld/memory.ld	c62530b9cb238de
+123	1342	7817621944835358	partition_table/partition-table.bin	bc84abc22a2e9d47
+123	1342	7817621944835358	C:/Microcontroladores/Tarea_1/MQTT/build/partition_table/partition-table.bin	bc84abc22a2e9d47
+394	1863	7817621945278465	esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/lib_printf.c.obj	4aa282662b0c31b
+406	2067	7817621945424117	esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/mesh_event.c.obj	894385fb9e68448b
+419	2265	7817621945564780	esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig.c.obj	6c4e7435ce226374
+433	2308	7817621945747740	esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_init.c.obj	c3bf7aa8544df362
+451	2527	7817621945936295	esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default.c.obj	82722232f572b415
