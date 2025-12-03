@@ -1,0 +1,2 @@
+source C:/Microcontroladores/Blink_from_scrach/build/bootloader/gdbinit/symbols
+source C:/Microcontroladores/Blink_from_scrach/build/bootloader/gdbinit/connect
